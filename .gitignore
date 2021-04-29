@@ -1,4 +1,9 @@
 # Byte-compiled / optimized / DLL files
+
+
+selenium_env/
+requirements.txt
+
 __pycache__/
 *.py[cod]
 *$py.class
