@@ -1,5 +1,6 @@
 from selenium.webdriver.chrome.options import Options
 import pytest
+import time
 from selenium import webdriver
 
 def pytest_addoption(parser):
@@ -9,7 +10,7 @@ def pytest_addoption(parser):
                  help="Choose language: ru, en, fr, es ...")             
 
 
-@pytest.fixture(scope="session")
+@pytest.fixture(scope="function")
 def browser(request):
     browser_name = request.config.getoption("browser_name")
     browser_language = request.config.getoption("language")
@@ -26,4 +27,5 @@ def browser(request):
         raise pytest.UsageError("--browser_name should be chrome or firefox")
     yield browser
     print("\nquit browser..")
+    time.sleep(1)
     browser.quit()

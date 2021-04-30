@@ -17,5 +17,9 @@ class LoginPageLocators ():
     FORM_REGISTRATION_BUTTON = (By.NAME, "registration_submit")
     
 class ProductPageLocators ():
-    BUTTON_CART = (By.CSS_SELECTOR, ".btn-add-to-basket")  
-    
+    BUTTON_CART = (By.CSS_SELECTOR, ".btn-add-to-basket")
+    NAME_PRODUCT = (By.CSS_SELECTOR, ".product_main > h1")      
+    NAME_PRODUCT_IN_CART = (By.CSS_SELECTOR, ".alertinner  > strong:nth-child(1)")
+    PRICE_PRODUCT = (By.CSS_SELECTOR, ".product_main .price_color")   
+    PRICE_PRODUCT_IN_CART = (By.CSS_SELECTOR, ".alertinner p > strong")
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, "#messages .alert-success:nth-child(1)")     
