@@ -16,3 +16,6 @@ class LoginPageLocators ():
     FORM_REGISTRATION_REENTERPASS = (By.NAME, "registration-password2")
     FORM_REGISTRATION_BUTTON = (By.NAME, "registration_submit")
     
+class ProductPageLocators ():
+    BUTTON_CART = (By.CSS_SELECTOR, ".btn-add-to-basket")  
+    
