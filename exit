@@ -1,0 +1,53 @@
+[33mcommit c197638fbfabc78f9efa1053326ace3247e42c54[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: yu <inter_worker@mail.ru>
+Date:   Sat May 1 14:20:39 2021 +0300
+
+    added a link to the login page from the product page
+
+[33mcommit 160b725ca01fd57cfda70e2fbeaf2560665220bc[m
+Author: yu <inter_worker@mail.ru>
+Date:   Fri Apr 30 21:54:30 2021 +0300
+
+    add minus test method
+
+[33mcommit fe2c748c48b91aca26576d564c9982e62a4f6589[m
+Author: yu <inter_worker@mail.ru>
+Date:   Fri Apr 30 18:05:56 2021 +0300
+
+    add product to cart
+
+[33mcommit df40003dd588a76c666b420e6faaf94ead9b30e5[m
+Author: yu <inter_worker@mail.ru>
+Date:   Fri Apr 30 14:50:17 2021 +0300
+
+    add new test for the login page open
+
+[33mcommit 86c129402df8da33ebf9c936a540346dbc37b5aa[m
+Author: yu <inter_worker@mail.ru>
+Date:   Fri Apr 30 12:42:59 2021 +0300
+
+    should_be_login_link
+
+[33mcommit e1eccf1d041e3c34d30661e4b49d88baa7f4d7db[m
+Author: yu <inter_worker@mail.ru>
+Date:   Fri Apr 30 11:48:38 2021 +0300
+
+    change test with Page object
+
+[33mcommit 8b7daaffd50b9c2fb39c73e66fe381d5dba0f7cf[m
+Author: yu <inter_worker@mail.ru>
+Date:   Fri Apr 30 11:38:26 2021 +0300
+
+    open browser method
+
+[33mcommit 57b4ddb39621e14786f08c4613649ccac72f1376[m
+Author: yu <inter_worker@mail.ru>
+Date:   Thu Apr 29 20:10:37 2021 +0300
+
+    first commit
+
+[33mcommit fc4f9b5734ddd7cd7fe1fd33c120d776039d0e7e[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: inter-worker <82958750+inter-worker@users.noreply.github.com>
+Date:   Thu Apr 29 19:46:38 2021 +0300
+
+    Initial commit
