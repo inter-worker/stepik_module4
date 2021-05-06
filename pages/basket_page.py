@@ -9,8 +9,4 @@ class BasketPage(BasePage):
            "Mistake. Products are in the shopping cart" 
            
     def should_be_text_cart_is_empty(self):
-        # реализуйте проверку, что есть текст о том что корзина пустая
-        #tt = self.is_element_present(*BasketPageLocators.BASKET_TEXT_CART_EMPTY).text
-        #tt = self.find_element_by_css_selector(*BasketPageLocators.BASKET_TEXT_CART_EMPTY).text
-        
         assert self.is_element_present(*BasketPageLocators.BASKET_TEXT_CART_EMPTY), "Text 'Your shopping cart is empty' is not presented"       
